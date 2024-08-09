@@ -1,49 +1,46 @@
-let number1;
-let number2;
+const number1 = 10;
+const number2 = 20;
 
-number1 = 10;
-number2 = 20;
-
-let product = number1 * number2;
+const product = number1 * number2;
 
 console.log(product);
 console.log(typeof product);
 
-let charge = 10;
-let payment = 50;
-let amountRemaining = payment - charge;
+const charge = 10;
+const payment = 50;
+const amountRemaining = payment - charge;
 
 console.log(amountRemaining);
 console.log(typeof amountRemaining);
 
-let tests = 90;
-let assignments = 85;
-let final = 95;
-let grade = (tests + assignments + final) / 3;
+const tests = 90;
+const assignments = 85;
+const final = 95;
+const grade = (tests + assignments + final) / 3;
 
 console.log(grade);
 console.log(typeof grade);
 
-let firstName = 'Coby';
-let lastName = 'Welty';
-let fullName = firstName + ' ' + lastName;
+const firstName = 'Coby';
+const lastName = 'Welty';
+const fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
 console.log(typeof fullName);
 
-let pH = 12;
-let isAcidic = pH < 7;
+const pH = 12;
+const isAcidic = pH < 7;
 
 console.log(isAcidic);
 console.log(typeof isAcidic);
 
-let numberOfSoldiers = 300;
-let isSparta = numberOfSoldiers === 300;
+const numberOfSoldiers = 300;
+const isSparta = numberOfSoldiers === 300;
 
 console.log(isSparta);
 console.log(typeof isSparta);
 
-let nickname = fullName;
+const nickname = fullName;
 nickname += ' is the GOAT';
 
 console.log(nickname);
