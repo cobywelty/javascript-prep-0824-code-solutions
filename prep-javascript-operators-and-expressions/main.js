@@ -40,7 +40,7 @@ const isSparta = numberOfSoldiers === 300;
 console.log(isSparta);
 console.log(typeof isSparta);
 
-const nickname = fullName;
+let nickname = fullName;
 nickname += ' is the GOAT';
 
 console.log(nickname);
