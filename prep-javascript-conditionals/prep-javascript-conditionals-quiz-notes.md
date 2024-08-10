@@ -6,9 +6,18 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What does `strictly equal` mean?
 
+Strictly equals means the variable type and the values of the two values equal each other (instead of just the value)
+
 - What is the logical **and** operator?
 
+the logical and operator is "&&"
+
 - Can you name some comparison operators?
+
+less than "<"
+greater than ">"
+equal to "=="
+strictly equal to "==="
 
 ## Notes
 
